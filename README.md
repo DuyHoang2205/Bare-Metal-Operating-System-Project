@@ -1,6 +1,4 @@
-# Bare-Metal-Operating-System-Project
-
-# Bare Metal Operating System Project for Raspberry Pi 4
+# Bare Metal Operating System Project 
 
 ## Overview
 
@@ -91,9 +89,9 @@ For the final task, we developed a basic game, **Sokoban**, on the Bare Metal OS
    ```
 2. **Build the project:**
 The project uses Make as the build system. Run the following command to compile the source code:
-```bash
-make
-```
+    ```bash
+    make
+    ```
 This will create the kernel8.img file, which is the Bare Metal OS image that will run on the Raspberry Pi 4.
 3. **Set up UART communication:**
 If you need to use a UART-to-USB adapter to communicate with the Raspberry Pi 4, connect the UART adapter and configure the terminal software (e.g., Tera Term or PuTTY) to match the baud rate and settings in your project
